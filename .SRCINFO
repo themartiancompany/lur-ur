@@ -1,0 +1,15 @@
+pkgbase = lur
+	pkgdesc = Local user repository.
+	pkgver = 0
+	pkgrel = 1
+	url = https://github.com/themartiancompany/lur
+	arch = any
+	license = AGPL3
+	checkdepends = shellcheck
+	depends = aspe
+	depends = libcrash-bash
+	depends = pacman
+	source = lur-e7db601867b473a87ec739e1c7065b6bf241dd31.zip::https://github.com/themartiancompany/lur/archive/e7db601867b473a87ec739e1c7065b6bf241dd31.zip
+	sha256sums = 267d982435580f20b031539b55d7c668663194830106868f125d824619a873c2
+
+pkgname = lur
