@@ -1,6 +1,6 @@
 pkgbase = lur
 	pkgdesc = Local user repository.
-	pkgver = 0
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
 	pkgrel = 1
 	url = https://github.com/themartiancompany/lur
 	arch = any
@@ -9,7 +9,7 @@ pkgbase = lur
 	depends = aspe
 	depends = libcrash-bash
 	depends = pacman
-	source = lur-e7db601867b473a87ec739e1c7065b6bf241dd31.zip::https://github.com/themartiancompany/lur/archive/e7db601867b473a87ec739e1c7065b6bf241dd31.zip
-	sha256sums = 267d982435580f20b031539b55d7c668663194830106868f125d824619a873c2
+	source = lur-44994450d668d998a509faf10765e7c76ff3fba7.zip::https://github.com/themartiancompany/lur/archive/44994450d668d998a509faf10765e7c76ff3fba7.zip
+	sha256sums = 910f6352ea5c08c6a2a7ca168ec3148aa072a5d921f2c2a3c1d17a26564febe4
 
 pkgname = lur
