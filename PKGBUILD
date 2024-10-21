@@ -7,8 +7,8 @@ _offline="false"
 _git="false"
 _proj="hip"
 pkgname=lur
-pkgver="0.0.0.0.0.0.0.0.0.0.0.0.0.1.1"
-_commit="44994450d668d998a509faf10765e7c76ff3fba7"
+pkgver="0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1.1"
+_commit="111a92d798e32a28e20a6c58e58f926b0b4098cd"
 pkgrel=1
 _pkgdesc=(
   "Local user repository."
