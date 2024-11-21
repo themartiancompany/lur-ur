@@ -7,8 +7,8 @@ _offline="false"
 _git="false"
 _proj="hip"
 pkgname=lur
-pkgver="0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1.1"
-_commit="111a92d798e32a28e20a6c58e58f926b0b4098cd"
+pkgver="0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1.1.1"
+_commit="e3b4ed28f1c1ed88e956712e8a10832cf97c2134"
 pkgrel=1
 _pkgdesc=(
   "Local user repository."
@@ -24,7 +24,7 @@ group=(
  "${_proj}"
 )
 license=(
-  AGPL3
+  'AGPL3'
 )
 depends=(
   "aspe"
@@ -68,7 +68,7 @@ _tarname="${pkgname}-${_tag}"
     _sum='b245547bdcdbfeb09f400305a4b515b6d49635be90f560a39302761fc2688571'
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="c19542830a08fd512f8fa13049a854302d2bbaa040a8dbbf91b2b16d130ae913"
+    _sum='6cf25c8f29a848840089304156ed883bd06de545ad5bebff2bc112ed4c42324e'
   fi && \
     source+=(
       "${_tar}"
@@ -95,3 +95,4 @@ package() {
 }
 
 # vim: ft=sh syn=sh et
+
