@@ -8,14 +8,14 @@ _git="false"
 _proj="hip"
 pkgname=lur
 pkgver="0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1.1.1"
-_commit="e3b4ed28f1c1ed88e956712e8a10832cf97c2134"
+_commit="d7df5292b60c1e95b5a5c7a7a67db7b8624b2b08"
 pkgrel=1
 _pkgdesc=(
-  "Local user repository."
+  "Local User Repository."
 )
 pkgdesc="${_pkgdesc[*]}"
 arch=(
-  any
+  'any'
 )
 _http="https://github.com"
 _ns="themartiancompany"
@@ -29,11 +29,8 @@ license=(
 depends=(
   "aspe"
   "libcrash-bash"
-  "pacman"
+  "reallymakepkg"
 )
-_os="$( \
-  uname \
-    -o)"
 optdepends=(
 )
 [[ "${_os}" != "GNU/Linux" ]] && \
@@ -96,3 +93,4 @@ package() {
 
 # vim: ft=sh syn=sh et
 
+0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1.1.1.1
