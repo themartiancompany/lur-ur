@@ -42,6 +42,7 @@ fi
 _offline="false"
 _git="false"
 _proj="hip"
+_py="python"
 pkgname=lur
 pkgver="0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1.1.1.1.1"
 _commit="953095b59214d1f08b64047f45f1841d94a285f8"
@@ -77,7 +78,10 @@ if [[ "${_os}" != "GNU/Linux" ]] && \
   optdepends+=(
   )
 fi
-makedepends=()
+makedepends=(
+  "make"
+  "${_py}-docutils"
+)
 checkdepends=(
   "shellcheck"
 )
